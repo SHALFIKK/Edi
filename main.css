@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    max-width:1440px;
+    background-color: #171C8F;
+    /* background-image: url(/img/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: 400%; */
+}
+.header{
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 45px 33px 45px;
+    width: 1440px;
+ 
+}
+.head{ 
+    color: #fff;
+    width: 236px;
+    height: 34px;
+    flex-shrink: 0;
+    margin-left: 45px;
+    display: flex;
+    flex-direction: row;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px; /* 100% */
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+.head_info{
+   
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-left: 445px;
+    cursor: pointer;
+}
+.first_div{
+    width: 1440px;
+    height: 840px;
+    flex-shrink: 0;
+    display: flex;
+}
+.main{
+    width: 783px;
+    height: 685px;
+    flex-shrink: 0;
+}
+.Rectangle{
+    margin: 25px 612px 45px 45px;
+}
+.main_div{
+    position: relative;
+}
+.vector1{
+    position: absolute;
+    display: flex;
+    left: -785px;
+    top: 575px;
+}
+.vector2 {
+    position: absolute;
+    display: flex;
+    left: 440px;
+    top: -130px;
+    z-index: -1;
+}
+.vector3{
+    position: absolute;
+    display: flex;
+    left: 475px;
+    top: 720px;
+    z-index: -1;
+}
+.text_h3{
+    left: 945px;
+    top: 100px;
+    position: absolute;
+    display: flex;
+    color: #D7B9E4;
+    font-family: Roboto;
+    font-size: 53px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 84.15px; 
+    letter-spacing: 7.65px;
+    text-transform: uppercase;
+}
+.text_p{
+    width: 338px;
+    position: absolute;
+    display: flex;
+    left: 945px ;
+    top: 400px ;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 37.2px; 
+    letter-spacing: 0.24px;
+}
+.frame{
+    position: absolute;
+    display: flex;
+    top: 600px;
+    left: 945px;
+    cursor: pointer;
+}
